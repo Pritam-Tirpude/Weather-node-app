@@ -1,0 +1,28 @@
+$header1: 4.5rem;
+$header2: 2.5rem;
+$header3: 2.2rem;
+$buttontext: 2rem;
+$inputsize: 1.5rem;
+$textholder: #00595f;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "global";
+@import "weather-card";
+
+h1 {
+  text-align: center;
+  color: #1c3e3f;
+  letter-spacing: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form-wrapper {
+    width: 100%;
+  }
+}
