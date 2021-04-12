@@ -21,7 +21,7 @@ app.use(express.static("website"));
 // Server setup
 const PORT = process.env.PORT || 3000;
 
-const server = app.listen(port, listening);
+const server = app.listen(PORT, listening);
 
 function listening() {
   console.log(`Server running on localhost : ${PORT}`);
