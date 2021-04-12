@@ -19,12 +19,12 @@ app.use(cors());
 app.use(express.static("website"));
 
 // Server setup
-const port = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 const server = app.listen(port, listening);
 
 function listening() {
-  console.log(`Server running on localhost : ${port}`);
+  console.log(`Server running on localhost : ${PORT}`);
 }
 
 // POST route
