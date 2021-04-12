@@ -29,7 +29,7 @@ let UNITS = "&units=metric";
 const API_KEY = "869ee5bbe03c7234b3c050fb595183db";
 
 // Initialize the base URL
-const BASE_URL = "http://api.openweathermap.org/data/2.5/weather?zip=";
+const BASE_URL = "https://api.openweathermap.org/data/2.5/weather?zip=";
 
 // function to post data
 const postData = async (url = "", data = {}) => {
